@@ -1,10 +1,11 @@
 import demo from "./demo"
 
 describe("demo", () => {
-  it("should return 101", () => {
-    expect(demo()).toBe(101)
+  it("less return less than 10", () => {
+    expect(demo()).toBe("less than 10")
   })
-  it("should return 201", () => {
-    expect(demo(11)).toBe(201)
+
+  it("should return equal to or greater than 10", () => {
+    expect(demo(11)).toBe("equal to or greater than 10")
   })
 })

@@ -1,18 +1,8 @@
 function demo(val: number = 0) {
-  if (val > 10) {
-    console.log("val greater than 10")
-    return 201
+  if (val > 9) {
+    return "equal to or greater than 10"
   }
-  // if (val > 20) {
-  // console.log("val greater than 20")
-  // }
-  // if (val > 30) {
-  //   console.log("val greater than 30")
-  // }
-  // if (val > 40) {
-  //   console.log("val greater than 40")
-  // }
-  return 101
+  return "less than 10"
 }
 
 export default demo
